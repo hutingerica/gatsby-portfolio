@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
+    title: `Erica Huang`,
+    name: `Erica Huang`,
     siteUrl: `https://novela.narative.co`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Hi there! This is Erica `,
       maxWidth: 652,
     },
     social: [
@@ -25,10 +25,6 @@ module.exports = {
         name: `linkedin`,
         url: `https://www.linkedin.com/company/narative/`,
       },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
-      },
     ],
   },
   plugins: [
@@ -39,6 +35,7 @@ module.exports = {
         contentAuthors: "content/authors",
         basePath: "/",
         authorsPage: true,
+        mailchimp: true, // make sure this is true!
         sources: {
           local: true,
           // contentful: true,
@@ -60,6 +57,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://yourDomainHere.us18.list-manage.com/subscribe/post?u=1512315231251&amp;id=0asd21t12e', // add your MC list endpoint here; see plugin repo for instructions
       },
     },
   ],
