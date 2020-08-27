@@ -1,12 +1,9 @@
 name: Erica Huang
 bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
+  About me
 avatar: ./avatars/erica-huang.jpg
 social:
-  - url: https://unsplash.com
-  - url: https://stackoverflow.com
-  - url: https://github.com
-  - url: https://github.com
-  - url: https://github.com
+  - url: https://www.notion.so/ericayth/Resume-c4b39bf849b24d96af0430e90b8f732b
+  - url: https://www.linkedin.com/in/ericaypp/
+
 featured: true

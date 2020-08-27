@@ -5,25 +5,29 @@ module.exports = {
     siteUrl: `https://novela.narative.co`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Hi there! This is Erica `,
-      maxWidth: 652,
+      heading: `Hi there! Here're my selected projects`,
+      subtitle: `Currently, I'm building a platform for cooking co-creation and improving web experience at & Beyond Flavour. In my free time, I share my love for design and programming in a visual way, and playing with React and Headless CMS.`,
+      maxWidth: 750,
     },
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/narative`,
-      },
-      {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/hutingerica`,
       },
-      {
-        name: `instagram`,
-        url: `https://instagram.com/narative.co`,
-      },
+
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        url: `https://www.linkedin.com/ericaypp`,
+      },
+      
+      {
+        name: `notion`,
+        url: `https://www.notion.com/`,
+      },
+
+      {
+        name: `instagram`,
+        url: `https://instagram.com/ericaypp`,
       },
     ],
   },
